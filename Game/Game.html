@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">  <!--Παιρνει τα "γραφικα" απο το style.css-->
+    <head>
+        <script src="../js/script.js" type="text/javascript"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--The viewport is the user's visible area of a web page-->
+        <style>
+        canvas {
+            border:10px solid #ffffff;
+            background-color: #537a1f;
+        }<!--ΕΔΩ ΕΧΟΥΜΕ ΤΗΝ ΔΗΜΙΟΥΡΓΙΑ ΤΟΥ ΚΑΝΒΑ -->
+        </style>
+    </head>
+    <body bgcolor="#000000" onload="startGame()"> <!--Χρωμα Του Background της υπολοιπης σελιδας-->
+        <div id="myfilter" style="position:absolute;background-color:#0456000;opacity:0.6;width:322px;height:182px;display:none">
+            
+        </div>
+        <div id="myrestartbutton" style="position:absolute;padding-top:75px;padding-left:120px;display:none;">
+            <button onclick="restartGame()">Restart</button>
+        </div>
+        
+        <br>
+    </body>
+</html>
